@@ -12,7 +12,6 @@ export const Navbar = () => {
             <i className="fas fa-bars"></i>
           </button>
         </div>
-        {/* <!-- left this comment on purpose --> */}
         <ul className="nav-links" id="nav-links">
           {pageLinks.map((link) => {
             return (
